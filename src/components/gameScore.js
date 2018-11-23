@@ -29,7 +29,7 @@ const styles = theme => ({
 
   
 
-function gameScore(props) {
+function GameScore(props) {
     const { classes, gameScorePlayer1, gameScorePlayer2 } = props;
         return (
             <div>
@@ -75,10 +75,10 @@ function gameScore(props) {
         );
 }
 
-gameScore.propTypes = {
+GameScore.propTypes = {
     classes: PropTypes.object.isRequired,
     gameScorePlayer1: PropTypes.array.isRequired,
     gameScorePlayer2: PropTypes.array.isRequired,
   };
   
-  export default withStyles(styles)(gameScore);
+  export default withStyles(styles)(GameScore);

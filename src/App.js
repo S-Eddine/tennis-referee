@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import SetScore from './components/index';
+import SetScore from './components/Index';
 
 class App extends Component {
   render() {
